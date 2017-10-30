@@ -5,9 +5,9 @@
 
     <artifactId>spring-boot-web-thymeleaf</artifactId>
     <packaging>war</packaging>
-    <name>Spring Boot Web Thymeleaf Example</name>
-    <description>Spring Boot Web Thymeleaf Example</description>
-    <url>https://www.mkyong.com</url>
+    <name>Spring Boot Web Example</name>
+    <description>Spring Boot Web Example</description>
+    <url>https://www.techdrop.in</url>
     <version>1.0</version>
 
     <parent>

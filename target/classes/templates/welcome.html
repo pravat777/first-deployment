@@ -29,18 +29,41 @@
 
 	<div class="container">
 
-		<div class="starter-template">
-			<h1>Spring Boot Web Thymeleaf Example</h1>
-			<h2>
-				<span th:text="'Message: ' + ${message}"></span>
-			</h2>
-		</div>
 
 	</div>
 	<!-- /.container -->
+	
+		<form action="" method="Post">
+			<div class= "container">
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">@</span>
+				  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" required="Please Enter Username"/>
+				</div>
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">@</span>
+				  <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1" required="Please Enter Password"/>
+				</div>
+				<div class="input-group">
+				  <input type="submit" class="form-control btn btn-primary" onclick="login()" value="Submit"/>
+				</div>
+			</div>
+		</form>
+	<!-- /.container -->
+	
+	
 
 	<script type="text/javascript"
 		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
+
+<script type="text/javascript">
+
+	function login()
+	{
+		alert("Login Successfully....")
+	}
+	
+
+</script>
