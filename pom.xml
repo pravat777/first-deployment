@@ -1,5 +1,0 @@
-<dependency>
-  <groupId>jboss.web</groupId>
-  <artifactId>servlet-api</artifactId>
-  <version>2.1.0.GA</version>
-</dependency>
